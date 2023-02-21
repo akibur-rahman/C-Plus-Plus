@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void printVector(vector<int> v)
+void printVector(vector<int> &v)
 {
     // we can see the size of a vector with .size() method
     cout << "Size: " << v.size() << endl;
