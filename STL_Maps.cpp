@@ -27,8 +27,8 @@ int main(int argc, char const *argv[])
     m[2] = "test";
     m[3] = "world";
     // we can use find method to find value of a key. it returns an itreator
-    auto it = m.find(3); // finds the value of key inserted
-    cout << it->first << " " << it->second;
+    auto it = m.find(3);                    // finds the value of key inserted
+    cout << it->first << " " << it->second; // we can use -> instead of * to point at the value of iterator
     cout << endl;
 
     printMap(m);
