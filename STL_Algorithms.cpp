@@ -20,5 +20,12 @@ int main(int argc, char const *argv[])
     int ct = count(arr, arr + 5, 1);
     cout << ct << endl;
     // find function allows us to find an element in an container and= it returns a pointer to that container
+    cout << *find(arr, arr + 5, 2) << endl;
+    // reverse method allows s to reverse an container
+    reverse(arr, arr + 5); // takes starting and end pointer
+    for (int element : arr)
+    {
+        cout << element << endl;
+    }
     return 0;
 }
