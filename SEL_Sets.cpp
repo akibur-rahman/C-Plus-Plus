@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// no duplicates
+
 void printSet(set<string> &s)
 {
     for (auto element : s)
