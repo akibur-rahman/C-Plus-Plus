@@ -1,4 +1,4 @@
-// we have some built in algorithms in c++ stl. we will see some of them here
+// we have some built in algorithms in c++ stl. we will see some of them here.
 #include <bits/stdc++.h>
 using namespace std;
 
